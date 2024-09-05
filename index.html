@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/bhargavlogo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li class="l1"><a href="#header">Home</a></li>
+                    <li class="l2"><a href="#about">About</a></li>
+                    <li class="l3"><a href="#services">Services</a></li>
+                    <li class="l4"><a href="#portfolio">Portfolio</a></li>
+                    <li class="l5"><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+
+            <div class="header-text">
+                <div class="text">
+                    <p>Web Developer</p>
+                    <h1>Hii, I'm <span>Bhargav</span><br>FromVijayawada</h1>
+                </div>
+                <div class="image">
+                    <img src="images/bhargav3.jpg">
+                </div>
+            </div>
+
+  
+        </div>
+    </div>
+
+  <!--  ------  About -----    -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bhargav1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Great! If you’re interested in software, there’s a lot to explore. Are you into programming, software development, or perhaps specific areas like machine learning, cybersecurity, or app development? Do you have any favorite languages or tools you like to work with?
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br><br>Designing Web/App Applications.</li>
+                            <li><span>Full stack Development</span><br><br>Developing Web/App Applications.</li>
+                            <li><span>java with DSA</span><br><br>Building Logics with JAVA.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br><br>I'am a Fresher but i'm gain some Experience While doing some projects and Internships.</li>
+                        </ul>
+                    </div><div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-2026</span><br><br>BTECH - Pursuing Inforfation Technology in DIET Collage.</li>
+                            <li><span>2022</span><br><br>INTERMEDIATE - MPC in Siddhartha Collage.</li>
+                            <li><span>2020</span><br><br>SCHOOL - Z.P High School.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!--  ----  services ----     -->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span>S</span>ervices</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" style="color:#fff"></i>
+                <h2>Web Design</h2>
+                <p>
+                    If you’re interested in software, there’s a lot to explore. Are you into programming, software development, or perhaps specific areas like machine learning, cybersecurity, or app development? Do you have any favorite languages or tools you like to work with?
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store" style="color:#fff"></i>
+                <h2>Web Design</h2>
+                <p>
+                    If you’re interested in software, there’s a lot to explore. Are you into programming, software development, or perhaps specific areas like machine learning, cybersecurity, or app development? Do you have any favorite languages or tools you like to work with?
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code-merge" style="color:#fff"></i>
+                <h2>Web Design</h2>
+                <p>
+                    If you’re interested in software, there’s a lot to explore. Are you into programming, software development, or perhaps specific areas like machine learning, cybersecurity, or app development? Do you have any favorite languages or tools you like to work with?
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!--  ------  portfolio    -------    -->
+
+   <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span>W</span>ork</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/image1.jpg">
+                    <div class="layer">
+                        <h3>Amazon App</h3>
+                        <p>To explore the things in online shoping in your free time. download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image2.jpg">
+                    <div class="layer">
+                        <h3>Amazon App</h3>
+                        <p>To explore the things in online shoping in your free time. download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image3.jpg">
+                    <div class="layer">
+                        <h3>Amazon App</h3>
+                        <p>To explore the things in online shoping in your free time. download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+   </div>
+
+   <!--  ----   Contact    ---    -->
+
+   <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>M</span>e</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bhargavgurram2004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>7013533594</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/bhargav_ram702/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github-alt"></i></a>
+                    </div>
+                    <a href="pdf file path.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="your Name" required>
+                                <input type="email" name="Email" placeholder="your Email" required>
+                                <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                    </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright to Bhargav. Made with <i class="fa-solid fa-heart"></i> by Easy tutorials</p>
+        </div>
+   </div>
+
+    <script>
+
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSSqUos9IN9tmqwyIUcLFmvikNP1lYzXieihIfwIn8xBq_qC511Cbj84D-_GMWUf70iA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },6000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.left="250px";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.left="450px";
+        }
+
+    </script>
+
+</body>
+</html>
