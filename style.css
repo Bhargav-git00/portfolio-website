@@ -93,7 +93,7 @@ nav ul li a:hover::after{
 }
 
 .image{
-    margin-left:25%;
+    margin-left:30%;
     display:flex;
     flex-basis:35%;
     padding-top:70px;
@@ -101,7 +101,7 @@ nav ul li a:hover::after{
 
 .image img{
     height:500px;
-    width:700px;
+    width:600px;
 }
 
 /**  ----  About Page  -----   **/
@@ -429,6 +429,9 @@ nav .fa-solid{
 
 @media only screen and (max-width:600px){
 
+    body{
+        position:absolute;
+    }
     nav .fa-solid{
         display: block;
         color:white;
@@ -450,7 +453,7 @@ nav .fa-solid{
         position:fixed;
         top:0;
         right:0;
-        left:450px;
+        left:470px;
         height:50vh;
         padding-top: 50px;
         z-index:2;
@@ -488,17 +491,17 @@ nav .fa-solid{
     }
 
     nav .fa-bars{
-        margin-left:90px;
+        margin-left:60px;
         font-size:23px;
     }
 
     #header{
-        margin-left:-10px;
         width:100%;
     }
 
     .container{
-        margin-right:-10px;
+        margin-left:-18px;
+        margin-right:0;
         width:100%;
     }
 
@@ -525,9 +528,10 @@ nav .fa-solid{
     }
     
     .image img{
-        height:380px;
-        width:580px;
-        margin-left: -140px;
+        height:360px;
+        width:450px;
+        margin-left: -138px;
+        margin-left: -30px;
         margin-top:-60px;
     }
     
